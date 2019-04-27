@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    width:100%;
+}
+
+.separator {
+    background-color: rgb(229,231,233);
+    height:100px;
+    height:163px;
+}
+.mainmenu{
+    height:70px;
+    background-color: rgb(29,66,134);
+    /* position: sticky; */
+}
+.gametabs {
+    height:70px;
+    background-color: rgb(11,21,60);
+}
+.gamemenu {
+    height:65;
+    background-color: rgb(0,9,45);
+}
+
+.matches {
+    min-height:100px;
+    background-color: white;
+}
+
+.footer {
+    min-height:100px;
+    background-color: rgb(254,254,254);
+}
+
+@media (min-width: 1280px) {
+    .layer {
+        width:1280px;
+        margin:0 auto;
+    }
+}
+
+@media (min-width: 1020px) {
+    
+}
+
+@media (min-width: 640px) {
+    
+}
+
