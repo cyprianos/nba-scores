@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    font-family: Tahoma, sans-serif;
 }
 body {
     width:100%;
@@ -14,7 +15,8 @@ body {
 .mainmenu{
     height:70px;
     background-color: rgb(29,66,134);
-    /* position: sticky; */
+    position: sticky;
+    top: 0;
 }
 .gametabs {
     height:70px;
@@ -26,8 +28,38 @@ body {
 }
 
 .matches {
+    min-height:500px;
+    background-color: white;
+  
+    padding: 10px 40px;
+}
+
+.match {
+    border: 1px solid rgb(204,208,211);
     min-height:100px;
     background-color: white;
+}
+
+.match__heading {
+
+}
+
+.match__final {
+
+}
+
+.match__statistics {
+    padding:10px;
+    background-color: rgb(243,244,245);
+    color:rgb(17,32,43);
+    font-size: 12px;
+    border-top:1px solid rgb(232,233,234);
+    border-bottom:1px solid rgb(232,233,234);
+    text-align: center;
+}
+
+.match__navigation {
+
 }
 
 .footer {
@@ -35,18 +67,30 @@ body {
     background-color: rgb(254,254,254);
 }
 
+
+
+@media (min-width: 640px) {
+    .matches {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .match {
+        flex: 49% 0 1;
+        
+    }
+}
+
+@media (min-width: 1020px) {
+    .match {
+        flex: 32% 0 1;
+    }
+}
+
 @media (min-width: 1280px) {
     .layer {
         width:1280px;
         margin:0 auto;
     }
-}
-
-@media (min-width: 1020px) {
-    
-}
-
-@media (min-width: 640px) {
-    
 }
 
