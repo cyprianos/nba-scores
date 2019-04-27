@@ -28,7 +28,6 @@ body {
 }
 
 .matches {
-    min-height:500px;
     background-color: white;
   
     padding: 10px 40px;
@@ -36,7 +35,6 @@ body {
 
 .match {
     border: 1px solid rgb(204,208,211);
-    min-height:100px;
     background-color: white;
     margin-bottom:20px;
 }
@@ -84,7 +82,25 @@ body {
 }
 
 .match__navigation {
+    display: flex;
+    font-weight: bold;
+    padding-top:10px;
+    padding-bottom:10px;
+}
 
+.match__button {
+    color: rgb(23,121,186);
+    font-weight: bold;
+    font-size: 12px;
+    display:block;
+    text-decoration: none;
+    text-align: center;
+    padding:10px 0;
+    flex:1;
+    border-right:1px solid rgb(232,233,234);
+}
+.match__button:last-child {
+    border-right:none;
 }
 
 .footer {
