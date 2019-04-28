@@ -5,27 +5,40 @@ function downloadData() {
 }
 
 function App(data) {
-    let today = new Date()
+    const DAY_IN_MS = 24 * 60 * 60 * 1000 //86400000
 
-    let filtered = data.filter(function(match){
-        return new Date(match.Date).toDateString() === today.toDateString()
-    })
+    let currentDate = new Date()
 
-    matchesDraw(filtered)
+    let dayPrevious = document.getElementById('gamemenu__previous')
+        .onclick = function() {
+            currentDate = new Date(currentDate.getTime() - DAY_IN_MS)
+            matchesDraw(data, currentDate)
+        }
+    let dayNext = document.getElementById('gamemenu__next')
+        .onclick = function() {
+            currentDate = new Date(currentDate.getTime() + DAY_IN_MS)
+            matchesDraw(data, currentDate)
+        }
+
+    matchesDraw(data, currentDate)
     
-
     //musimy wiedziec jaki jest dzien
     //przefiltrowac dane i wyswietlic odpowiednie mecze
 
     //klikanie w lewo i prawo po to zeby przefiltrowac mecze pod katem iinnej daty
 }
 
-function matchesDraw(listOfMatches) {
-    let result  = listOfMatches
-        .reduce((result, match)=>result + matchHTML(match),"")
+function matchesDraw(data, day) {
+    let filtered = data.filter(function(match){
+        return new Date(match.Date).toDateString() === day.toDateString()
+    })
     
+    let result  = filtered
+        .reduce((result, match)=>result + matchHTML(match),"")
+
     document.getElementById('matches').innerHTML = result
 }
+
 
 function matchHTML(matchParams) {
     const {
@@ -64,8 +77,10 @@ function matchHTML(matchParams) {
         </div>
     `
 }
+window.onload = function(){
+    downloadData().then(App)
+}
 
-downloadData().then(App)
 
 
 

@@ -73,5 +73,80 @@
             "West. Conf. 1st Round"
         ],
         "GAME_DESC": "Wade last match"
+    },
+    {
+        "Date": "2019-04-27",
+        "Team_HOME": "Chicago Bulls",
+        "Team_AWAY": "Detroit Pistons",
+        "Team_HOME_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/CHI.svg",
+        "Team_AWAY_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/DET.svg",
+        "Team_HOME_PTS": 114,
+        "Team_AWAY_PTS": 128,
+        "MATCH_STATUS": "Final",
+        "PLAYOFF_DESC": [
+            "Game 6 (CHG wins 4-2)",
+            "West. Conf. 1st Round"
+        ],
+        "GAME_DESC": "Durant: 28 pts \u0026 16 rbs"
+    },
+    {
+        "Date": "2019-04-26",
+        "Team_HOME": "Utah Jazz",
+        "Team_AWAY": "Golden State Warriors",
+        "Team_HOME_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/UTA.svg",
+        "Team_AWAY_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/GSW.svg",
+        "Team_HOME_PTS": 112,
+        "Team_AWAY_PTS": 114,
+        "MATCH_STATUS": "Final",
+        "PLAYOFF_DESC": [
+            "Game 7 (UTH wins 4-3)",
+            "West. Conf. 1st Round"
+        ],
+        "GAME_DESC": "Carry 3 pts on 2 sec before end"
+    },
+    {
+        "Date": "2019-04-25",
+        "Team_HOME": "Los Angeles Lakers",
+        "Team_AWAY": "Orlando Magic",
+        "Team_HOME_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/LAL.svg",
+        "Team_AWAY_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/ORL.svg",
+        "Team_HOME_PTS": 117,
+        "Team_AWAY_PTS": 113,
+        "MATCH_STATUS": "Final",
+        "PLAYOFF_DESC": [
+            "Game 5 (LAL wins 3-2)",
+            "West. Conf. 1st Round"
+        ],
+        "GAME_DESC": "Bryant: 22 pts \u0026 8 rbs"
+    },
+    {
+        "Date": "2019-04-24",
+        "Team_HOME": "San Antonio Spurs",
+        "Team_AWAY": "Portland Blazers",
+        "Team_HOME_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/SAS.svg",
+        "Team_AWAY_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/POR.svg",
+        "Team_HOME_PTS": 122,
+        "Team_AWAY_PTS": 108,
+        "MATCH_STATUS": "Final",
+        "PLAYOFF_DESC": [
+            "Game 6 (POR wins 4-2)",
+            "West. Conf. 1st Round"
+        ],
+        "GAME_DESC": "Very boring match, nobody cares"
+    },
+    {
+        "Date": "2019-04-23",
+        "Team_HOME": "Toronto Raptors",
+        "Team_AWAY": "Miami Heat",
+        "Team_HOME_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/TOR.svg",
+        "Team_AWAY_LOGO": "http://cdn.nba.net/assets/logos/teams/secondary/web/MIA.svg",
+        "Team_HOME_PTS": 92,
+        "Team_AWAY_PTS": 127,
+        "MATCH_STATUS": "Final",
+        "PLAYOFF_DESC": [
+            "Game 2 (MIA wins 1-1)",
+            "West. Conf. 1st Round"
+        ],
+        "GAME_DESC": "Wade last match"
     }
 ]
