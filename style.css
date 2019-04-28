@@ -6,11 +6,46 @@
 body {
     width:100%;
 }
+.akapit {
+    line-height: 20px;
+    vertical-align: middle;
+    /* top:45%; */
+}
+.obrazek {
+    vertical-align: middle;
+    height:20px;
+    position: relative;
+    top:-2px;
+}
+
+.flexbox {
+    justify-content: space-around;
+    display:flex;
+    align-items: center;
+}
+.ikonka {
+
+}
+.ikonka-calendar {
+    height:10px;
+}
+.calosc {
+}
+.a{
+ 
+    text-align:center;
+}
+.b {
+    display:flex;
+    justify-content: center;
+}
+
 
 .separator {
     background-color: rgb(229,231,233);
-    height:100px;
-    height:163px;
+    /* height:100px; */
+    /* height:163px; */
+    text-align: center;
 }
 .mainmenu{
     height:70px;
