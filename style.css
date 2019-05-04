@@ -12,12 +12,6 @@ body {
     height:100px;
     height:163px;
 }
-.mainmenu{
-    height:70px;
-    background-color: rgb(29,66,134);
-    position: sticky;
-    top: 0;
-}
 .gametabs {
     height:70px;
     background-color: rgb(11,21,60);
@@ -260,3 +254,6 @@ body {
     }
 }
 
+.accountmenu {
+    display:none;
+}

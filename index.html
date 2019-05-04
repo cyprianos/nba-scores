@@ -3,21 +3,63 @@
 <head>
     <title>Nba Scores</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mainmenu.css">
+    <link rel="stylesheet" href="sidemenu.css">
     <script src="nba.js"></script>
+    <script src="menu.js"></script>
 </head>
+
 <body>
-    <div class="layer mainmenu">Menu</div>
-    <div class="layer separator">Odstep</div>
-    <div class="layer gametabs">Gametabs</div>
-    <div class="layer gamemenu">
-        <div id="gamemenu__previous" class="gamemenu__button gamemenu__previous"></div>
-        <div class="calendar">
-            <div class="calendar__icon"></div><div id="calendar__date" class="calendar__date"></div>
+    <div class="mainmenu">
+        <div onclick="switchMenu()" class="sidemenu__switch">
+            <div class="sidemenu__icon"></div>
         </div>
-        <div id="gamemenu__next" class="gamemenu__button gamemenu__next"></div>
+        <div class="mainmenu__logoman"></div>
+        <div class="pagemenu">
+            <div class="pagemenu__item pagemenu__item--scores">Scores</div>
+            <div class="pagemenu__item pagemenu__item--schedule">Schedule</div>
+            <div class="pagemenu__item pagemenu__item--news">News</div>
+            <div class="pagemenu__item pagemenu__item--playoffs">Video</div>
+            <div class="pagemenu__item pagemenu__item--nbatv">NBA&nbsp;TV</div>
+            <div class="pagemenu__item pagemenu__item--standings">Standings</div>
+            <div class="pagemenu__item pagemenu__item--stats">Stats</div>
+            <div class="pagemenu__item pagemenu__item--players">Players</div>
+            <div class="pagemenu__item pagemenu__item--teams">Teams</div>
+            <div class="pagemenu__item pagemenu__item--playoffs">Playoffs</div>
+        </div>
+        <div class="usermenu">
+            <div class="usermenu__item">Pick&nbsp;'Em</div>
+            <div class="usermenu__item">Shop</div>
+            <div class="usermenu__item">Tickets</div>
+            <div class="usermenu__item">NBA&nbsp;League&nbsp;Pass</div>
+        </div>
+        <div class="accountmenu__switch"></div>
     </div>
-    <div id="matches" class="layer matches">
+    <div class="accountmenu">
+
     </div>
-    <footer class="layer footer">footer</footer>
+    <div class="sidemenu">
+        <div class="sidemenu__item">Playoff</div>
+        <div class="sidemenu__item">Search</div>
+        <div class="sidemenu__item">Nba VR</div>
+        <div class="sidemenu__item">Key</div>
+        <div class="sidemenu__item">Nba Events</div>
+    </div>
+    <div class="page">
+        <div class="layer separator">Odstep</div>
+        <div class="layer gametabs">Gametabs</div>
+        <div class="layer gamemenu">
+            <div id="gamemenu__previous" class="gamemenu__button gamemenu__previous"></div>
+            <div class="calendar">
+                <div class="calendar__icon"></div>
+                <div id="calendar__date" class="calendar__date"></div>
+            </div>
+            <div id="gamemenu__next" class="gamemenu__button gamemenu__next"></div>
+        </div>
+        <div id="matches" class="layer matches">
+        </div>
+        <footer class="layer footer">footer</footer>
+    </div>
 </body>
+
 </html>

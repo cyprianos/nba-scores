@@ -1,0 +1,134 @@
+.mainmenu{
+    display: flex;
+    align-items: center;
+    height:56px;
+    padding-left:10px;
+    background-color: rgb(29,66,134);
+    position: sticky;
+    top: 0;
+}
+
+.mainmenu__logoman {
+    background-image:url(images/nav_logoman.svg);
+    height:28px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:65px;
+    background-size: contain;
+}
+
+.pagemenu {
+    display:flex;
+    flex:1;
+    padding-left:22px;
+}
+.pagemenu__item, .usermenu__item {
+    color:white;
+
+    padding:10px;
+    font-size: 16px;
+
+} 
+.usermenu {
+    display: none;
+}
+
+.accountmenu__switch {
+    background-image: url(images/profile.svg);
+    height:40px;
+    width:40px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* konfiguracja pagemenu */
+
+.pagemenu__item--playoffs{
+    display: none;
+}
+.pagemenu__item--teams{
+    display: none;
+}
+.pagemenu__item--players{
+    display: none;
+}
+.pagemenu__item--stats{
+    display: none;
+}
+.pagemenu__item--standings{
+    display: none;
+}
+.pagemenu__item--nbatv{
+    display: none;
+}
+.pagemenu__item--news{
+    display: none;
+}
+.pagemenu__item--schedule{
+    display: none;
+}
+/* 
+.pagemenu__item--scores{
+    display: none;
+} */
+
+
+
+@media (min-width:1240px) {
+    .pagemenu__item--playoffs {
+        display: block;
+    }
+}
+@media (min-width:1120px) {
+    .pagemenu__item--teams {
+        display: block;
+    }
+}
+
+@media (min-width:1050px) {
+    .pagemenu__item--players {
+        display: block;
+    }
+}
+
+@media (min-width:980px) {
+    .pagemenu__item--stats {
+        display: block;
+    }
+}
+
+@media (min-width:921px) {
+    .pagemenu__item--standings {
+        display: block;
+    }
+}
+
+@media (min-width:835px) {
+    .pagemenu__item--nbatv {
+        display: block;
+    }
+}
+
+@media (min-width:760px) {
+    .pagemenu__item--news {
+        display: block;
+    }
+}
+@media (min-width:700px) {
+    .pagemenu__item--schedule {
+        display: block;
+    }
+}
+
+@media (min-width:620px) {
+    .usermenu {
+        display: flex;
+    }
+}
+
+
+
+
+
+
